@@ -1,0 +1,89 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: "poppinsregular";
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+ 
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title{
+  flex-direction: column;
+  line-height: 10px;
+  font-size: 25px;
+
+}
+
+li{
+  display: inline-block;
+  margin: 10px;
+}
+
+a{
+  color: orange;
+}
+
+#inscreva-se-btm{
+  border: 2px solid ;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+h1{
+  font-weight: 200px; 
+}
+
+main{
+  display: flex;
+  flex-direction:row ;
+  margin-top: 50px;
+}
+
+h2{
+  font-size: 40px;
+  line-height: 10px;
+  font-family: "poppinsmedium";
+}
+
+span{
+  color: orange;
+}
+
+p{
+  line-height: 30px;
+  max-width: 700px;
+  font-family: "poppinslight";
+}
+
+img{
+  width: 770px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+#est-sub-enviar{
+  height: 40px;
+  width: 100%;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+
+input{
+  margin-top: 20px;
+  height: auto;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+}
